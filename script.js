@@ -151,22 +151,79 @@
 // JS is s dynamically typed language. So we can store different data-types
 // in the same variable.
 
-let x;
+// let x;
+// console.log(x);
+// console.log(typeof x);
+
+// x = "Krishna";
+// console.log(x);
+// console.log(typeof x);
+
+// x = 100;
+// console.log(x);
+// console.log(typeof x);
+
+// x = true;
+// console.log(x);
+// console.log(typeof x);
+
+            // Operators in Javascript
+// Operators in JS are symbols that are used to perform operations on operands.
+
+//10 + 20; //+ is operator here and 10 & 20 are operand.
+
+                // Types of Operators
+                    // 1. Arithmetic Operators
+                    // 2. Assignment Operators
+                    // 3. Comparison Operators
+                    // 4. Logical Operators
+                    // 5. String Operators
+
+// 1. Arithmetic operators: are used to perform mathematica operators on operands.
+// Addition
+// let sum = 5 + 2;
+// console.log("Additon is " + sum);
+
+// // Subtraction
+// sum = 5 - 2;
+// console.log("Subtraction is " + sum);
+
+// // Multiplication
+// sum = 5 * 2;
+// console.log("Multiplication is " + sum);
+
+// // Division
+// sum = 5 / 2;
+// console.log("Division is " + sum);
+
+// // Modulus
+// sum = 5 % 2;
+// console.log("Modulus is " + sum);
+
+// // Exponentiation
+// sum = 5 ** 2;
+// console.log("Modulus is " + sum);
+
+// 2. Assignment Operators: are used to assign values to variables.
+
+let x = 5;
+x += 3; // Addition assignment
 console.log(x);
-console.log(typeof x);
 
-x = "Krishna";
+let y = 5;
+y -= 3; // Subtration assignment
+console.log(y);
+
+let z = 5;
+z *= 3; // Multiplication assignment
+console.log(z);
+
+let a = 5;
+x /= 3; // Division assignment
 console.log(x);
-console.log(typeof x);
 
-x = 100;
-console.log(x);
-console.log(typeof x);
-
-x = true;
-console.log(x);
-console.log(typeof x);
-
-
+let b = 5;
+x **= 3; // Exponentiation assignment
+console.log(b);
 
 
