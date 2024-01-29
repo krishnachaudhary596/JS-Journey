@@ -326,14 +326,81 @@
 // 6. String Operators: In JS, you can also use the + operator to
 // concatenate (join) two or more strings.
 
-console.log("Hello " + "World");
+// console.log("Hello " + "World");
 
-let a = 'Krishna ';
+// let a = 'Krishna ';
 
-a += 'Chaudhary';
+// a += 'Chaudhary';
 
-console.log(a);
+// console.log(a);
 
+            // Operator Precedence in Javascript
+// Operator Precedence: in JS determines the order in which operators are
+// prased concerning each other.
+
+// let result = (2 + 3) * 4;
+// console.log(result);
+
+            // Operator Associativity
+// Operator associativity in JS defines the order in which operators of the
+// same precedence are evaluated.
+
+    // Types of Associativity:
+        // 1. Left-to-right
+        // 2. Right-to-left
+
+// 1. Left-to-right
+// let result = 4 - 2 - 1;
+// console.log(result);
+
+// 2. Right-to-left
+// let result = 2 ** 3 ** 2;
+// console.log(result);
+
+        // Control flow statement
+// Control flow statements are used to control the flow of execution
+// in a JavaScript program. They are used to make decisions, execute loops,
+// and handle errors.
+// There are three types of control flow statements in JS:
+        // 1. Conditional statements
+        // 2. Loops
+        // 3. Try/Catch statments
+
+// 1. Conditional statements: are used to execute different actions based
+// on different conditions.
+    // If statement
+    // else statement
+    // else if statement
+
+        // If statement   
+// let age = 20;
+
+// if (age > 18) {
+//     console.log('you are adult.');
+// }
+
+        // else statement
+// let age = 16;
+
+// if (age > 18) {
+//     console.log('you are adult.');
+// }
+// else {
+//     console.log('you are not adult.');
+// }
+
+        // else if statement
+let age = 16;
+
+if (age > 18) {
+    console.log('you are adult.');
+}
+else if (age >= 16) {
+    console.log('You are teenager.');
+}
+else {
+    console.log('you are minor.');
+}
 
 
 
