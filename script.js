@@ -231,33 +231,62 @@
 // by 1. The increment operator is ++ and decrement is --.
 // They can be used in two ways Prefix and Postfix.
 
-let a = 10;
-console.log("Prefix increment");
-console.log(++a); //Prefix increment
-console.log(a);
+// let a = 10;
+// console.log("Prefix increment");
+// console.log(++a); //Prefix increment
+// console.log(a);
 
-let b = 10;
-console.log("Prefix decrement");
-console.log(--b); //Prefix decrement
-console.log(b);
-// Tn the above prefixfix example operator is placed before the variable, and the
-// value of the variable is used after it is incremented.
+// let b = 10;
+// console.log("Prefix decrement");
+// console.log(--b); //Prefix decrement
+// console.log(b);
+// // Tn the above prefixfix example operator is placed before the variable, and the
+// // value of the variable is used after it is incremented.
 
-let c = 10;
-console.log("Postfix increment");
-console.log(c++); //Postfix increment
-console.log(c);
+// let c = 10;
+// console.log("Postfix increment");
+// console.log(c++); //Postfix increment
+// console.log(c);
 
-let d = 10;
-console.log("Postfix decrement");
-console.log(d--); //Postfix decrement
-console.log(d);
+// let d = 10;
+// console.log("Postfix decrement");
+// console.log(d--); //Postfix decrement
+// console.log(d);
 // Tn the above postfix example operator is placed after the variable, and the
 // value of the variable is used before it is incremented.
 
 // 4. Comparison Operators: are used to compare two values and give back
 // a boolean values: either true or false. Comparison operators are useful
 // in decision-making and loop programs in JavaScript
+
+    // < (less then)\
+    // > (greater then)
+    // <= (less then equall to)
+    // >= (greater then equall to)
+    // == (Equal checks)
+    // != (inequality) (not equal) (flipped value of equal checks)
+    // === (strict equality checks) (checks the Data type)
+    // !== (strict inequality) (!==) (flipped value strict equality checks)
+
+// let a = 10;
+// let b = 20;
+
+// console.log(a < b);
+// console.log(a > b);
+// console.log(a <= b);
+// console.log(a >= b);
+
+// console.log(a == b);
+// console.log(a != b);
+
+// console.log(a === b); // checks datatype and value both
+// console.log(a !== b); // checks datatype and value both
+
+// 5. Logical Operators: performs logical operations like:-
+    // AND (&&),
+    // OR (||),
+    // NOT (!)
+
 
 
 
