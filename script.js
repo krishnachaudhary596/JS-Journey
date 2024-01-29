@@ -283,9 +283,58 @@
 // console.log(a !== b); // checks datatype and value both
 
 // 5. Logical Operators: performs logical operations like:-
-    // AND (&&),
-    // OR (||),
-    // NOT (!)
+    // Logical AND (&&),
+    // Logical OR (||),
+    // Logical NOT (!)
+
+// Logical AND (&&): Evaluates operands and returns true only if all are true.
+    // true && true; // true
+    // true && false; // false
+    // false && true; // false
+    // false && false; // false
+
+// let x = 5;
+// let y = 10;
+
+// console.log(x > 0 && y > 0);
+// console.log(x > 0 && y < 0);
+// console.log(x < 0 && y > 0);
+// console.log(x < 0 && y < 0);
+
+// Logical OR (||): retuns true even if one of the multiple operands is true.
+// true || true; // true
+// true || false; // true
+// false || true; // true
+// false || false; // false
+
+// let x = 5;
+// let y = 10;
+
+// console.log(x > 0 || y > 0);
+// console.log(x > 0 || y < 0);
+// console.log(x < 0 || y > 0);
+// console.log(x < 0 || y < 0);
+
+// Logical NOT (!): Converts operator to boolean and returns flipped value.
+
+// let yes = true;
+// let no = false;
+
+// console.log(!yes);
+// console.log(!no);
+
+// 6. String Operators: In JS, you can also use the + operator to
+// concatenate (join) two or more strings.
+
+console.log("Hello " + "World");
+
+let a = 'Krishna ';
+
+a += 'Chaudhary';
+
+console.log(a);
+
+
 
 
 
