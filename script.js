@@ -175,9 +175,10 @@
                 // Types of Operators
                     // 1. Arithmetic Operators
                     // 2. Assignment Operators
-                    // 3. Comparison Operators
-                    // 4. Logical Operators
-                    // 5. String Operators
+                    // 3. Increment / Decrement Operators
+                    // 4. Comparison Operators
+                    // 5. Logical Operators
+                    // 6. String Operators
 
 // 1. Arithmetic operators: are used to perform mathematica operators on operands.
 // Addition
@@ -205,25 +206,62 @@
 // console.log("Modulus is " + sum);
 
 // 2. Assignment Operators: are used to assign values to variables.
+// let x = 5;
+// x += 3; // Addition assignment
+// console.log(x);
 
-let x = 5;
-x += 3; // Addition assignment
-console.log(x);
+// let y = 5;
+// y -= 3; // Subtration assignment
+// console.log(y);
 
-let y = 5;
-y -= 3; // Subtration assignment
-console.log(y);
+// let z = 5;
+// z *= 3; // Multiplication assignment
+// console.log(z);
 
-let z = 5;
-z *= 3; // Multiplication assignment
-console.log(z);
+// let a = 5;
+// x /= 3; // Division assignment
+// console.log(x);
 
-let a = 5;
-x /= 3; // Division assignment
-console.log(x);
+// let b = 5;
+// x **= 3; // Exponentiation assignment
+// console.log(b);
 
-let b = 5;
-x **= 3; // Exponentiation assignment
+// 3. Increment / Decrement Operators: The incremnet and decrement
+// operators are used to increase or decrease the value of a variable
+// by 1. The increment operator is ++ and decrement is --.
+// They can be used in two ways Prefix and Postfix.
+
+let a = 10;
+console.log("Prefix increment");
+console.log(++a); //Prefix increment
+console.log(a);
+
+let b = 10;
+console.log("Prefix decrement");
+console.log(--b); //Prefix decrement
 console.log(b);
+// Tn the above prefixfix example operator is placed before the variable, and the
+// value of the variable is used after it is incremented.
+
+let c = 10;
+console.log("Postfix increment");
+console.log(c++); //Postfix increment
+console.log(c);
+
+let d = 10;
+console.log("Postfix decrement");
+console.log(d--); //Postfix decrement
+console.log(d);
+// Tn the above postfix example operator is placed after the variable, and the
+// value of the variable is used before it is incremented.
+
+// 4. Comparison Operators: are used to compare two values and give back
+// a boolean values: either true or false. Comparison operators are useful
+// in decision-making and loop programs in JavaScript
+
+
+
+
+
 
 
