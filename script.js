@@ -458,7 +458,12 @@
 
     console.log("This day is: " + dayname);
 
+// Ternary Operator
+    // condition ? value_if_true : value_if_false
 
+let age = 20;
+let msg = (age >= 18) ? "You are adult" : "You are minor";
+console.log(msg);
 
 
 
