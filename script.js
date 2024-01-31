@@ -390,20 +390,73 @@
 // }
 
         // else if statement
-let age = 16;
+// let age = 16;
 
-if (age > 18) {
-    console.log('you are adult.');
-}
-else if (age >= 16) {
-    console.log('You are teenager.');
-}
-else {
-    console.log('you are minor.');
-}
+// if (age > 18) {
+//     console.log('you are adult.');
+// }
+// else if (age >= 16) {
+//     console.log('You are teenager.');
+// }
+// else {
+//     console.log('you are minor.');
+// }
 
+    // Switch Case: The switch statement in JS is a conditinal statement
+    // that is used to execute a block of code based on the value of
+    // expression.
 
+    // let value = 42;
+    // switch (typeof value) {
+    //     case "number":
+    //         console.log("Number");
+    //         break;
+    //     case "string":
+    //         console.log("string");
+    //         break;    
+    // case "number":
+    //         console.log("Number");
+    //         break;
+    // case "boolean":
+    //         console.log("boolean");
+    //         break;
+    //     default:
+    //         console.log("Other");
+    //         break;
+    // }
 
+    let dayname = 2;
+    switch (dayname) {
+        case 1:
+            dayname = 'Sunday';
+            break;
+    
+        case 2:
+            dayname = 'Monday';
+            break;
+        
+        case 3:
+            dayname = 'Tuesday';
+            break;
+            
+        case 4:
+            dayname = 'Thursday';
+            break;
+            
+        case 5:
+            dayname = 'Friday';
+            break;
+            
+        case 6:
+            dayname = 'Saturday';
+            break;
+         
+        default:
+            console.log("Invalid");
+            break;
+    }
+
+    console.log("This day is: " + dayname);
 
 
 
