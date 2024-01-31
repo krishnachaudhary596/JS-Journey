@@ -425,45 +425,47 @@
     //         break;
     // }
 
-    let dayname = 2;
-    switch (dayname) {
-        case 1:
-            dayname = 'Sunday';
-            break;
+//     let dayname = 2;
+//     switch (dayname) {
+//         case 1:
+//             dayname = 'Sunday';
+//             break;
     
-        case 2:
-            dayname = 'Monday';
-            break;
+//         case 2:
+//             dayname = 'Monday';
+//             break;
         
-        case 3:
-            dayname = 'Tuesday';
-            break;
+//         case 3:
+//             dayname = 'Tuesday';
+//             break;
             
-        case 4:
-            dayname = 'Thursday';
-            break;
+//         case 4:
+//             dayname = 'Thursday';
+//             break;
             
-        case 5:
-            dayname = 'Friday';
-            break;
+//         case 5:
+//             dayname = 'Friday';
+//             break;
             
-        case 6:
-            dayname = 'Saturday';
-            break;
+//         case 6:
+//             dayname = 'Saturday';
+//             break;
          
-        default:
-            console.log("Invalid");
-            break;
-    }
+//         default:
+//             console.log("Invalid");
+//             break;
+//     }
 
-    console.log("This day is: " + dayname);
+//     console.log("This day is: " + dayname);
 
-// Ternary Operator
-    // condition ? value_if_true : value_if_false
+// // Ternary Operator
+//     // condition ? value_if_true : value_if_false
 
-let age = 20;
-let msg = (age >= 18) ? "You are adult" : "You are minor";
-console.log(msg);
+// let age = 20;
+// let msg = (age >= 18) ? "You are adult" : "You are minor";
+// console.log(msg);
+
+
 
 
 
