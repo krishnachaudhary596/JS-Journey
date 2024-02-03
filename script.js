@@ -21,16 +21,16 @@
 // const a = 4;
 // console.log(a);
 
-// // Here we will not able to assign constant variable.
+// // Here we will not able to assign constant variable because a = 4 is already assigned.
 // a = 5;
 
 // Scope in Javascript
 // Scope in Javascript referes to the visibility of variables and functions
 // within a program.
 // In Javascript, there are three types of scope:
-    // Global scope,
-    // Function scope,
-    // Block scope.
+//     Global scope,
+//     Function scope,
+//     Block scope.
 
 // Global scope
 // The global scope is the outermost scope in a Javascript program.
@@ -76,10 +76,10 @@
 // console.log(bv); // outside function (ERROR)
 
 // Data types in Javascript
-    // 1. Primitive: String, Number, Boolean, Null, Undefined, BigInt, Symbol
-    // 2. Reference: Object, Array, Function
+//     1. Primitive: String, Number, Boolean, Null, Undefined, BigInt, Symbol
+//     2. Reference: Object, Array, Function
 
-            // Primitive Data Types
+//             Primitive Data Types
 
 // String Data types: In JS, a string is a sequence of zero or more characters.
 // Starts with single quote(') or a double quote("). They are used for storing
@@ -121,7 +121,7 @@
 
 // console.log(null == undefined);
 
-        // Reference Data Types
+//         Reference Data Types
 // In JS, an object is a collection of properties. Where each property
 // is defined as a key-value pair.
 
@@ -167,18 +167,18 @@
 // console.log(x);
 // console.log(typeof x);
 
-            // Operators in Javascript
+//             Operators in Javascript
 // Operators in JS are symbols that are used to perform operations on operands.
 
-//10 + 20; //+ is operator here and 10 & 20 are operand.
+// 10 + 20; //+ is operator here and 10 & 20 are operand.
 
-                // Types of Operators
-                    // 1. Arithmetic Operators
-                    // 2. Assignment Operators
-                    // 3. Increment / Decrement Operators
-                    // 4. Comparison Operators
-                    // 5. Logical Operators
-                    // 6. String Operators
+//                 Types of Operators
+//                     1. Arithmetic Operators
+//                     2. Assignment Operators
+//                     3. Increment / Decrement Operators
+//                     4. Comparison Operators
+//                     5. Logical Operators
+//                     6. String Operators
 
 // 1. Arithmetic operators: are used to perform mathematica operators on operands.
 // Addition
@@ -259,14 +259,14 @@
 // a boolean values: either true or false. Comparison operators are useful
 // in decision-making and loop programs in JavaScript
 
-    // < (less then)\
-    // > (greater then)
-    // <= (less then equall to)
-    // >= (greater then equall to)
-    // == (Equal checks)
-    // != (inequality) (not equal) (flipped value of equal checks)
-    // === (strict equality checks) (checks the Data type)
-    // !== (strict inequality) (!==) (flipped value strict equality checks)
+//     < (less then)\
+//     > (greater then)
+//     <= (less then equall to)
+//     >= (greater then equall to)
+//     == (Equal checks)
+//     != (inequality) (not equal) (flipped value of equal checks)
+//     === (strict equality checks) (checks the Data type)
+//     !== (strict inequality) (!==) (flipped value strict equality checks)
 
 // let a = 10;
 // let b = 20;
@@ -283,15 +283,15 @@
 // console.log(a !== b); // checks datatype and value both
 
 // 5. Logical Operators: performs logical operations like:-
-    // Logical AND (&&),
-    // Logical OR (||),
-    // Logical NOT (!)
+//     Logical AND (&&),
+//     Logical OR (||),
+//     Logical NOT (!)
 
 // Logical AND (&&): Evaluates operands and returns true only if all are true.
-    // true && true; // true
-    // true && false; // false
-    // false && true; // false
-    // false && false; // false
+//     true && true; // true
+//     true && false; // false
+//     false && true; // false
+//     false && false; // false
 
 // let x = 5;
 // let y = 10;
@@ -334,20 +334,20 @@
 
 // console.log(a);
 
-            // Operator Precedence in Javascript
+//             Operator Precedence in Javascript
 // Operator Precedence: in JS determines the order in which operators are
 // prased concerning each other.
 
 // let result = (2 + 3) * 4;
 // console.log(result);
 
-            // Operator Associativity
+//             Operator Associativity
 // Operator associativity in JS defines the order in which operators of the
 // same precedence are evaluated.
 
-    // Types of Associativity:
-        // 1. Left-to-right
-        // 2. Right-to-left
+//     Types of Associativity:
+//         1. Left-to-right
+//         2. Right-to-left
 
 // 1. Left-to-right
 // let result = 4 - 2 - 1;
@@ -357,29 +357,29 @@
 // let result = 2 ** 3 ** 2;
 // console.log(result);
 
-        // Control flow statement
+//         Control flow statement
 // Control flow statements are used to control the flow of execution
 // in a JavaScript program. They are used to make decisions, execute loops,
 // and handle errors.
 // There are three types of control flow statements in JS:
-        // 1. Conditional statements
-        // 2. Loops
-        // 3. Try/Catch statments
+//         1. Conditional statements
+//         2. Loops
+//         3. Try/Catch statments
 
 // 1. Conditional statements: are used to execute different actions based
 // on different conditions.
-    // If statement
-    // else statement
-    // else if statement
+//     If statement
+//     else statement
+//     else if statement
 
-        // If statement   
+//         If statement   
 // let age = 20;
 
 // if (age > 18) {
 //     console.log('you are adult.');
 // }
 
-        // else statement
+//         else statement
 // let age = 16;
 
 // if (age > 18) {
@@ -389,7 +389,7 @@
 //     console.log('you are not adult.');
 // }
 
-        // else if statement
+//         else if statement
 // let age = 16;
 
 // if (age > 18) {
@@ -402,28 +402,28 @@
 //     console.log('you are minor.');
 // }
 
-    // Switch Case: The switch statement in JS is a conditinal statement
-    // that is used to execute a block of code based on the value of
-    // expression.
+//     Switch Case: The switch statement in JS is a conditinal statement
+//     that is used to execute a block of code based on the value of
+//     expression.
 
-    // let value = 42;
-    // switch (typeof value) {
-    //     case "number":
-    //         console.log("Number");
-    //         break;
-    //     case "string":
-    //         console.log("string");
-    //         break;    
-    // case "number":
-    //         console.log("Number");
-    //         break;
-    // case "boolean":
-    //         console.log("boolean");
-    //         break;
-    //     default:
-    //         console.log("Other");
-    //         break;
-    // }
+//     let value = 42;
+//     switch (typeof value) {
+//         case "number":
+//             console.log("Number");
+//             break;
+//         case "string":
+//             console.log("string");
+//             break;    
+//     case "number":
+//             console.log("Number");
+//             break;
+//     case "boolean":
+//             console.log("boolean");
+//             break;
+//         default:
+//             console.log("Other");
+//             break;
+//     }
 
 //     let dayname = 2;
 //     switch (dayname) {
@@ -465,8 +465,25 @@
 // let msg = (age >= 18) ? "You are adult" : "You are minor";
 // console.log(msg);
 
+// --------------------Conditional Finished---------------------------
+
+// 2. Looping: are used to repeat a block of code.
+    // For Loop
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log("Krishna Chaudhary");
+// }
+// // console.log("Krishna Chaudhary");
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
+// }
 
 
+let coding = ['Javascript', 'Python', 'CPP'];
 
+for (let i = 0; i < coding.length; i++) {
+    console.log(coding[i]);
+}
 
 
