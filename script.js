@@ -480,10 +480,74 @@
 // }
 
 
-let coding = ['Javascript', 'Python', 'CPP'];
+// let coding = ['Javascript', 'Python', 'CPP'];
 
-for (let i = 0; i < coding.length; i++) {
-    console.log(coding[i]);
-}
+// for (let i = 0; i < coding.length; i++) {
+//     console.log(coding[i]);
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log(i);
+    
+//     for(let j = 1; j <= 3; j++) {
+//         console.log("Inner Loop" + j);
+//     }
+// }
+
+    // While loop
+// let i = 1;
+// while (i <= 5) {
+//     console.log(i);
+//     i++;
+// }
+
+    // Do While loop
+
+// let i = 1;
+// do {
+//     // code to be repeated
+//     console.log(i);
+//     i++;
+// } while (i <= 5);
+
+let i = 10;
+
+//This will execute the codde even the condition is wrongbecause do while
+//loop executes the code 1st time then its checks the condition.
+
+// do {
+//     // code to be repeated
+//     console.log(i);
+//     i++;
+// } while (i <= 5);
+
+
+// Break and Continue statement in JS.
+    // Break: statement is used to terminate the loop immediately.
+
+// for (let i = 0; i <= 5; i++) {
+      
+//     if (i == 3) {
+//         break;
+//     }
+    
+//     console.log(i);
+//  }
+
+    // Continue: statment is used to skip the current iteration of the
+    // loop and the control flow of the program goes to the next iteration.
+
+    for (let i = 0; i <= 5; i++) {
+      
+        if (i == 3) {
+            continue;
+        }
+        
+        console.log(i);
+     }
+    
+        // Function in JS
+
+
 
 
