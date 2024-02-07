@@ -588,10 +588,28 @@ let i = 10;
 // The return statement denotes that the function has ended. Any code after return
 // is not executed.
 
-function add(a, b) {
-    return a + b;
+// function add(a, b) {
+//     return a + b;
+// }
+
+// let result = add(10, 20);
+// console.log(result);
+
+function fn1(x) {
+    function fn2(y){
+        return x * y;
+    }
+    return fn2;
 }
 
-let result = add(10, 20);
-console.log(result);
+let result = fn1(3);
+// console.log(result);
+console.log(result(2));
+// let result2 = fn2(3);
+
+
+
+
+
+
 
