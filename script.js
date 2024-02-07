@@ -537,17 +537,61 @@ let i = 10;
     // Continue: statment is used to skip the current iteration of the
     // loop and the control flow of the program goes to the next iteration.
 
-    for (let i = 0; i <= 5; i++) {
+    // for (let i = 0; i <= 5; i++) {
       
-        if (i == 3) {
-            continue;
-        }
+    //     if (i == 3) {
+    //         continue;
+    //     }
         
-        console.log(i);
-     }
+    //     console.log(i);
+    //  }
     
         // Function in JS
+// Function is a block of code that performs specific tasks and they are
+// reusable blocl of code that can be called from anywhere.
 
+// function fucnctionname(){
+    // code to be executed
+// }
 
+// function greet() {
+//     console.log("Hello, Everyone");
+// }
 
+// greet();
+
+// Function with Parameters and Arguments
+    // Parameters: are the variables that are declared in the function definiton.
+    // Arguments: are the values that are passed to the function when it is called.
+
+// function greet(firstname, lastname) {
+//     console.log("Hello " + firstname + " " + lastname);
+// }
+
+// greet("Krishna", "Chaudhary");
+
+// If you pass less arguments then remaining parameters will became undefined.
+// If you pass more arguments then rest will be ignored.
+
+// Default Parameters
+// Parameters that have a default value.
+// means if no arguments passed then the default value will be used.
+
+// function sum(x, y = 1) { //if we don't pass y value then default y=1 will be used.
+//     console.log(x + y);
+// }
+
+// sum(10, 15);
+
+// Function Return
+// The return statement can be used to return the value when the function is called.
+// The return statement denotes that the function has ended. Any code after return
+// is not executed.
+
+function add(a, b) {
+    return a + b;
+}
+
+let result = add(10, 20);
+console.log(result);
 
