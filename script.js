@@ -611,16 +611,38 @@ let i = 10;
 // A callback is a function passed as an argument to another function.
 // A callback function can run after another function has finished.
 
-function display(result) {
-    console.log(result);
-}
+// function display(result) {
+//     console.log(result);
+// }
 
-function add(num1, num2, myCallBack) {
-    let sum = num1 + num2;
-    myCallBack(sum);
-}
+// function add(num1, num2, myCallBack) {
+//     let sum = num1 + num2;
+//     myCallBack(sum);
+// }
 
-add(10, 20, display);
+// add(10, 20, display);
+
+// Anonymous Functions in JavaScript
+// Functions that are not declared with a name are known as Anonymous Functions.
+
+// function(parameters) {
+//     // code to be executed
+// }
+
+// let sum = function(x, y) {
+//     return x+y;
+// }
+
+// console.log(sum(2, 3)); 
+
+(
+    function(){
+        console.log("Hello, Krishna😘");
+    }
+) ();
+
+
+
 
 
 
