@@ -595,23 +595,32 @@ let i = 10;
 // let result = add(10, 20);
 // console.log(result);
 
-function fn1(x) {
-    function fn2(y){
-        return x * y;
-    }
-    return fn2;
+// function fn1(x) {
+//     function fn2(y){
+//         return x * y;
+//     }
+//     return fn2;
+// }
+
+// let result = fn1(3);
+// // console.log(result);
+// console.log(result(2));
+// // let result2 = fn2(3);
+
+// Callbacks in JavaScript
+// A callback is a function passed as an argument to another function.
+// A callback function can run after another function has finished.
+
+function display(result) {
+    console.log(result);
 }
 
-let result = fn1(3);
-// console.log(result);
-console.log(result(2));
-// let result2 = fn2(3);
+function add(num1, num2, myCallBack) {
+    let sum = num1 + num2;
+    myCallBack(sum);
+}
 
-
-
-
-
-
+add(10, 20, display);
 
 
 
