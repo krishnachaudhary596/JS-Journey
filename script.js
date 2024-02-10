@@ -635,12 +635,53 @@ let i = 10;
 
 // console.log(sum(2, 3)); 
 
-(
-    function(){
-        console.log("Hello, Krishna😘");
-    }
-) ();
+// (
+//     function(){
+//         console.log("Hello, Krishna😘");
+//     }
+// ) ();
 
+// SetTimout(Function, Time is miliseconds)
+
+// setTimeout(
+//     function(){
+//         console.log("Hello, Krishna😘");
+// }, 5000); //This will display the message after 5 seconds
+
+// Recursive Functions: A function which calls itself.
+
+    // Syntax
+// function myFunction() {
+//     // Function Code
+//     myFunction(); // Calling same function
+// }
+
+// The above syntax is correct but the issue is the function will itself
+// infinitly so to prevent this we have to use any type of conditional 
+// statement.
+
+// function myFunction() {
+//     // Function Code
+//     if (condition) {
+//         myFunction(); // Calling same function
+//     }
+//     else {
+//         // stop calling recursion
+//     }
+   
+// }
+// myFunction();
+
+function countDown(num) {
+    console.log(num);
+    num--;
+    if (num >= 0) {
+        countDown(num);
+    }
+   
+}
+
+countDown(10);
 
 
 
