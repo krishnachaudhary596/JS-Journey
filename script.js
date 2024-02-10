@@ -510,7 +510,7 @@
 //     i++;
 // } while (i <= 5);
 
-let i = 10;
+// let i = 10;
 
 //This will execute the codde even the condition is wrongbecause do while
 //loop executes the code 1st time then its checks the condition.
@@ -546,6 +546,8 @@ let i = 10;
     //     console.log(i);
     //  }
     
+// --------------------Loop Finished---------------------------
+
         // Function in JS
 // Function is a block of code that performs specific tasks and they are
 // reusable blocl of code that can be called from anywhere.
@@ -672,16 +674,58 @@ let i = 10;
 // }
 // myFunction();
 
-function countDown(num) {
-    console.log(num);
-    num--;
-    if (num >= 0) {
-        countDown(num);
-    }
+// function countDown(num) {
+//     console.log(num);
+//     num--;
+//     if (num >= 0) {
+//         countDown(num);
+//     }
    
+// }
+
+// countDown(10);
+
+// --------------------Function Finished---------------------------
+
+// Objects in JavaScript: Objects is a non-primitive data-type that allows
+// you to store multiple collections of data.
+
+// const object_name = {
+//     key1:value,
+//     key2:value2
+// }
+
+// const person = {
+//     firstName: "Elon", // key value pairs are called properties
+//     lastName: "Musk",
+//     age: 35
+// }
+
+// console.log(person);
+
+// When we declare a function as a value in key:value pair then it is
+// known as Methods.
+
+
+// Accessing the value of objest
+//objectname.key  //syntax
+
+const person = {
+    firstName: "Elon", // key value pairs are called properties
+    lastName: "Musk",
+    age: 35
 }
 
-countDown(10);
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.age);
+
+console.log(person["age"]);
+
+
+
+
+
 
 
 
