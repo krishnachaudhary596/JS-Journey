@@ -1,10 +1,11 @@
-// Creating variable using var keyword
+        // Creating variable using var keyword
 // var x = 30;
 // var x = "hello world";
 
 // console.log("Hello World");
+// document.write("Hello World"); this will display message in browser.
 
-// Creating variable using let keyword
+        // Creating variable using let keyword
 // let keyword in Javascript is used to declare a block-scoped variable.
 // Mens that the variable is only visible within the block in which it is declared.
 // let x = 10;
@@ -13,9 +14,9 @@
 //     let y = 20;
 //     console.log(y);
 // }
-// console.log(y);
+// console.log(y); // error because y is not accessible outside scope.
 
-// Creating variable using const keyword
+        // Creating variable using const keyword
 // The const keyword in Javascript is used to declare a contstant variable.
 // This means that the variable cannot be reassigned to a new value.
 // const a = 4;
@@ -24,7 +25,7 @@
 // // Here we will not able to assign constant variable because a = 4 is already assigned.
 // a = 5;
 
-// Scope in Javascript
+        // Scope in Javascript
 // Scope in Javascript referes to the visibility of variables and functions
 // within a program.
 // In Javascript, there are three types of scope:
@@ -710,17 +711,27 @@
 // Accessing the value of objest
 //objectname.key  //syntax
 
+// const person = {
+//     firstName: "Elon",
+//     lastName: "Musk",
+//     age: 35
+// }
+
+// console.log(person.firstName);
+// console.log(person.lastName);
+// console.log(person.age);
+
+
+
 const person = {
-    firstName: "Elon", // key value pairs are called properties
+    "first Name": "Elon", // key value pairs are called properties
     lastName: "Musk",
     age: 35
 }
 
-console.log(person.firstName);
-console.log(person.lastName);
-console.log(person.age);
+// console.log(person.first Name); // not accessable
 
-console.log(person["age"]);
+console.log(person["first Name"]);
 
 
 
